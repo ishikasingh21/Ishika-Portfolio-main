@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website<br/>
-  <a href="https://ishikasingh.netlify.app/" target="_blank">ishikasingh</a>
+  <a href="https://ishikasingh.netlify.app/" target="_blank">ishikasingh21</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="./Images/interface.png" />
