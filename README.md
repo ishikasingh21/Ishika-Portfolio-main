@@ -1,6 +1,10 @@
 <h2 align="center">
   Portfolio Website<br/>
+<<<<<<< HEAD
   <a href="https://ishikasingh.netlify.app/" target="_blank">ishikasingh21</a>
+=======
+  <a href="https://ishikasingh.netlify.app/" target="_blank">ishikasingh</a>
+>>>>>>> e1167777fd8b41246a2ccbba73dd3ca40c1fc8b8
 </h2>
 <div align="center">
   <img alt="Demo" src="./Images/interface.png" />
