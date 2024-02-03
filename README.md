@@ -1,18 +1,3 @@
-<h2 align="center">
-  Portfolio Website<br/>
-<<<<<<< HEAD
-  <a href="https://ishikasingh.netlify.app/" target="_blank">ishikasingh21</a>
-=======
-  <a href="https://ishikasingh.netlify.app/" target="_blank">ishikasingh</a>
->>>>>>> e1167777fd8b41246a2ccbba73dd3ca40c1fc8b8
-</h2>
-<div align="center">
-  <img alt="Demo" src="./Images/interface.png" />
-</div>
-
-<br/>
-
-
 ## Built With
 
 This project was built using these technologies.
@@ -45,4 +30,3 @@ Clone down this repository. You will need `node.js` and `git` installed globally
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.
-
