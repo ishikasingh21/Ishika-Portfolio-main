@@ -1,17 +1,17 @@
 const projects = [
     {
-      title: 'MERN eCommerce',
+      title: 'Sales Predictor',
       image: './images/rn-mockup',
-      description: 'Full featured ecommerce store built with MERN stack and Paypal payments API. Admin page to manage customers, products & orders.',
-      tools: ['React', 'Redux', 'MongoDB', 'JWT', 'Express'],
-      github: 'https://github.com/Deelip7/react-node-ecommerce',
+      description: 'blah blah blah',
+      tools: ['Python', 'Pandas', 'NumPy', 'Matplotlib', 'Scikit-Learn'],
+      github: 'https://github.com/ishikasingh21/Sales-predictor',
     },
     {
       title: 'Bank Transaction Analysis',
       image: './images/tmdb-mockup',
       description: 'blah blah blah',
       tools: ['Python', 'Microsoft Excel'],
-      github: 'https://github.com/Deelip7/react-tmdb-app',
+      github: 'https://github.com/ishikasingh21/datacleaning-project-1',
     },
     {
       title: 'Plant Disease Detection ',
