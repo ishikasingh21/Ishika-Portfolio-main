@@ -15,7 +15,7 @@ const Contact = () => {
               ishika003.singh@gamil.com
             </a>
           </div>
-          <a className='border-b-2 mt-3 inline-block border-gray-500' href='./Resume - Theelipan Prabakar.pdf' target='_blank' rel='noreferrer'>
+          <a className='border-b-2 mt-3 inline-block border-gray-500' href='./Ishika Singh.pdf' target='_blank' rel='noreferrer'>
             Resume
           </a>
           <div className='flex flex-row flex-wrap mt-7'>

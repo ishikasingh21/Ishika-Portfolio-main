@@ -4,7 +4,10 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
 import {
+  AiOutlineContacts,
+  AiOutlineFile,
   AiOutlineHome,
+  AiOutlineProject,
   AiOutlineUser,
 } from "react-icons/ai";
 
@@ -31,7 +34,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          
+
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -62,16 +65,29 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> Contact
+              <Nav.Link as={Link}
+                to="/Project"
+                onClick={() => updateExpanded(false)}>
+                <AiOutlineProject style={{ marginBottom: "2px" }} /> Project
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> Project
+              <Nav.Link as={Link}
+                to="/Contact"
+                onClick={() => updateExpanded(false)}>
+                <AiOutlineContacts style={{ marginBottom: "2px" }} /> Contact
               </Nav.Link>
             </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link as={Link}
+                to="/Resume"
+                onClick={() => updateExpanded(false)}>
+                <AiOutlineFile style={{ marginBottom: "2px" }} /> Resume
+              </Nav.Link>
+            </Nav.Item>
+
 
           </Nav>
         </Navbar.Collapse>
