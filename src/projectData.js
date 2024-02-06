@@ -10,7 +10,7 @@ const projects = [
       title: 'Bank Transaction Analysis',
       image: './images/tmdb-mockup',
       description: 'blah blah blah',
-      tools: ['React', 'API', 'SASS'],
+      tools: ['Python', 'Microsoft Excel'],
       github: 'https://github.com/Deelip7/react-tmdb-app',
     },
     {
