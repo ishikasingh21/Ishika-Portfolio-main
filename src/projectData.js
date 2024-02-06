@@ -17,8 +17,8 @@ const projects = [
       title: 'Plant Disease Detection ',
       image: './images/recipeApp-mockup',
       description: 'In my Machine Learning project, I focused on image processing and CNNs. I used CNNs to analyze images, enhancing my skills in preprocessing, optimization, and evaluation. This reinforced my passion for the potential of machine learning in visual data analysis.',
-      tools: ['Javascript', 'API'],
-      github: 'https://github.com/Deelip7/RecipesFinder',
+      tools: ['Python',  'TensorFlow',  'Keras',  'Jupyter Notebook',  'Scikit-Learn'],
+      github: 'https://github.com/ishikasingh21/Plant-Disease-detection',
     },
   ];
   
