@@ -14,9 +14,9 @@ const projects = [
       github: 'https://github.com/Deelip7/react-tmdb-app',
     },
     {
-      title: 'Recipe Finder',
+      title: 'Plant Disease Detection ',
       image: './images/recipeApp-mockup',
-      description: 'Browse recipes from a variety of sources. Users can save recipes to view them later. API from themealdb.com.',
+      description: 'In my Machine Learning project, I focused on image processing and CNNs. I used CNNs to analyze images, enhancing my skills in preprocessing, optimization, and evaluation. This reinforced my passion for the potential of machine learning in visual data analysis.',
       tools: ['Javascript', 'API'],
       github: 'https://github.com/Deelip7/RecipesFinder',
     },
