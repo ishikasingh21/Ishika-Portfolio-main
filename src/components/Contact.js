@@ -11,7 +11,7 @@ const Contact = () => {
         <div className='md:w-6/12 md:px-0 p-5 my-5'>
           <div>
             <p className='font-bold'>Ishika Singh</p>
-            <a href='mailto: Theelipan@gmail.com' className='border-b-2 mt-3 inline-block border-gray-500'>
+            <a href='mailto: ishika003.singh@gmail.com' className='border-b-2 mt-3 inline-block border-gray-500'>
               ishika003.singh@gamil.com
             </a>
           </div>
