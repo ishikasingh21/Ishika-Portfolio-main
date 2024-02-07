@@ -16,6 +16,8 @@ import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Contact from "./components/Contact";
+import Project from "./components/Project";
+
 
 function App() {
   const [load, upadateLoad] = useState(true);
@@ -37,7 +39,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-        
+          <Route path="/project" element={<Project />} />
+          <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
         <Footer />
