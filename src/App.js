@@ -17,6 +17,9 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Contact from "./components/Contact";
 import Project from "./components/Project";
+import Experience from "./components/Experience";
+
+
 
 
 function App() {
@@ -40,13 +43,16 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/project" element={<Project />} />
+          <Route path="/Experience" element={<Experience />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<Navigate to="/"/>} />
+
         </Routes>
         <Footer />
       </div>
     </Router>
   );
 }
+
 
 export default App;

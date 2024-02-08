@@ -74,6 +74,14 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link as={Link}
+                to="/Experience"
+                onClick={() => updateExpanded(false)}>
+                <AiOutlineProject style={{ marginBottom: "2px" }} /> Experience
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link as={Link}
                 to="/Contact"
                 onClick={() => updateExpanded(false)}>
                 <AiOutlineContacts style={{ marginBottom: "2px" }} /> Contact
