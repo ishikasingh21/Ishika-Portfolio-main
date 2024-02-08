@@ -15,7 +15,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Contact from "./components/Contact/Contact";
+import Contact from "./components/Contact";
 import Project from "./components/Project/Project";
 
 
