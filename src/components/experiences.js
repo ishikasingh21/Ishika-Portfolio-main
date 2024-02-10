@@ -2,6 +2,12 @@
 
 const experiences = [
     {
+      title: 'Intern',
+      company: 'ABC Tech Inc.',
+      date: 'January 2018 - Present',
+      description: 'Worked on developing scalable web applications using React.js and Node.js.',
+    },
+    {
       title: 'Software Engineer',
       company: 'ABC Tech Inc.',
       date: 'January 2018 - Present',

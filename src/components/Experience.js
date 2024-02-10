@@ -21,10 +21,9 @@ const Experience = () => {
           {experience.description}
         </p>
       </VerticalTimelineElement>
-      
-      
     ))}
   </VerticalTimeline>
+  
   );
 };
 
