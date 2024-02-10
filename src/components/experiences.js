@@ -4,7 +4,7 @@ const experiences = [
       title: 'Front End Web Developer Intern',
       company: 'Edunet Foundation',
       date: 'June 2023 - July 2023',
-      description: 'Worked on developing scalable web using React.js, HTML, CSS and Javascript.',
+      description: 'As a Front-End Developer intern at Edunet Foundation, I designed intuitive interfaces for educational platforms, integrating innovative features to enhance user experience. I sharpened my coding skills and gained valuable insights into the intersection of technology and education.',
     },
     {
       title: 'Data Analyst Intern',
