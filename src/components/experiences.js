@@ -2,10 +2,10 @@
 
 const experiences = [
     {
-      title: 'Front End Developer Intern',
-      company: '',
-      date: 'January 2018 - Present',
-      description: 'Worked on developing scalable web applications using React.js and Node.js.',
+      title: 'Front End Web Developer Intern',
+      company: 'Edunet Foundation',
+      date: 'June 2023 - July 2023',
+      description: 'Worked on developing scalable web using React.js, HTML, CSS and Javascript.',
     },
     {
       title: 'Software Engineer',

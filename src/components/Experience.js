@@ -17,9 +17,7 @@ const Experience = () => {
       >
         <h3 className="vertical-timeline-element-title">{experience.title}</h3>
         <h4 className="vertical-timeline-element-subtitle">{experience.company}</h4>
-        <p>
-          {experience.description}
-        </p>
+        <p>{experience.description}</p>
       </VerticalTimelineElement>
     ))}
   </VerticalTimeline>
