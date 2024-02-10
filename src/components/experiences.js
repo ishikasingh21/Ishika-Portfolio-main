@@ -16,7 +16,19 @@ const experiences = [
       title: <span className="purple">Internship Trainee</span>,
       company: <span className="purple">Dakshinanchal Vidyut Vitran Nigam Limited</span>,
       date: 'June 2022- June 2022 ',
-      description: 'Interning at DVVNL in Agra, I immersed myself in data analysis and field trips, gaining insight into the intricacies of power distribution. Beyond the tasks, the camaraderie among colleagues showed me the human side of the energy industry, leaving an enduring impact on my journey.',
+      description: 'Interning at DVVNL in Agra, I immersed myself in data analysis and field trips, gaining insight into the intricacies of power distribution.',
+    },
+    {
+      title: <span className="purple">Internship Trainee</span>,
+      company: <span className="purple">Dakshinanchal Vidyut Vitran Nigam Limited</span>,
+      date: 'June 2022- June 2022 ',
+      description: 'Interning at DVVNL in Agra, I immersed myself in data analysis and field trips, gaining insight into the intricacies of power distribution.',
+    },
+    {
+      title: <span className="purple">Internship Trainee</span>,
+      company: <span className="purple">Dakshinanchal Vidyut Vitran Nigam Limited</span>,
+      date: 'June 2022- June 2022 ',
+      description: 'Interning at DVVNL in Agra, I immersed myself in data analysis and field trips, gaining insight into the intricacies of power distribution.',
     },
   ];
   
