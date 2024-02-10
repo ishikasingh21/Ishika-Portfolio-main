@@ -10,7 +10,7 @@ const experiences = [
       title: 'Data Analyst Intern',
       company: 'Edulyt India',
       date: 'May 2023 - June 2023',
-      description: 'Worked on developing scalable web applications using React.js and Node.js.',
+      description: 'As a Data Analyst Intern at Edulyt India, I delved into intricate datasets, uncovering insights to enhance educational strategies.',
     },
     {
       title: 'Internship Trainee',
