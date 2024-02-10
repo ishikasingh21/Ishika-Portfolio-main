@@ -1,5 +1,4 @@
 // experiences.js
-
 const experiences = [
     {
       title: 'Front End Web Developer Intern',
