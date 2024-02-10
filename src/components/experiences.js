@@ -8,9 +8,9 @@ const experiences = [
       description: 'Worked on developing scalable web using React.js, HTML, CSS and Javascript.',
     },
     {
-      title: 'Software Engineer',
-      company: 'ABC Tech Inc.',
-      date: 'January 2018 - Present',
+      title: 'Data Analyst Intern',
+      company: 'Edulyt India',
+      date: 'May 2023 - June 2023',
       description: 'Worked on developing scalable web applications using React.js and Node.js.',
     },
     {
