@@ -4,7 +4,10 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
 import {
+  AiOutlineAim,
   AiOutlineContacts,
+  AiOutlineEnvironment,
+  AiOutlineExperiment,
   AiOutlineFile,
   AiOutlineHome,
   AiOutlineProject,
@@ -76,7 +79,7 @@ function NavBar() {
               <Nav.Link as={Link}
                 to="/Experience"
                 onClick={() => updateExpanded(false)}>
-                <AiOutlineProject style={{ marginBottom: "2px" }} /> Experience
+                <AiOutlineAim style={{ marginBottom: "2px" }} /> Experience
               </Nav.Link>
             </Nav.Item>
 
