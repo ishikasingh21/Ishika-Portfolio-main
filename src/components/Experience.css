@@ -8,6 +8,7 @@
     border-left: 2px solid #be50f4; /* Adjust border color */
     border-radius: 4px; /* Adjust border radius */
     margin: 20px 0; /* Adjust margin as needed */
+    color: #ccc;
   }
   /* Timeline element date */
   .vertical-timeline-element-date {
@@ -26,7 +27,7 @@
   }
   /* Timeline element description */
   .vertical-timeline-element-subtitle {
-    color: #ccc; /* Adjust description color */
+    color: #fff; /* Adjust description color */
     font-size: 1em; /* Adjust description font size */
   }
   /* Timeline icon */
