@@ -14,7 +14,7 @@ const experiences = [
     },
     {
       title: 'Internship Trainee',
-      company: 'DAKSHINANCHAL VIDYUT VITRAN NIGAM LIMITED',
+      company: 'Dakshinanchal Vidyut Vitran Nigam Limited',
       date: 'June 2022- June 2022 ',
       description: 'Interning at DVVNL in Agra, I immersed myself in data analysis and field trips, gaining insight into the intricacies of power distribution. Beyond the tasks, the camaraderie among colleagues showed me the human side of the energy industry, leaving an enduring impact on my journey.',
     },
