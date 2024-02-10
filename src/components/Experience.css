@@ -1,51 +1,42 @@
 /* Customize Vertical Timeline Component */
-
 /* Timeline container */
 .vertical-timeline {
     font-family: Arial, sans-serif; /* Customize font if needed */
   }
-  
   /* Timeline element */
   .vertical-timeline-element {
     border-left: 2px solid #be50f4; /* Adjust border color */
     border-radius: 4px; /* Adjust border radius */
     margin: 20px 0; /* Adjust margin as needed */
   }
-  
   /* Timeline element date */
   .vertical-timeline-element-date {
     color: #be50f4; /* Adjust date color */
   }
-  
   /* Timeline element content */
   .vertical-timeline-element-content {
     background-color: #1b1a2ea9; /* Adjust background color */
     padding: 20px; /* Adjust padding as needed */
   }
-  
   /* Timeline element title */
   .vertical-timeline-element-title {
     color: #fff; /* Adjust title color */
     font-size: 1.2em; /* Adjust title font size */
     margin-bottom: 10px; /* Adjust margin as needed */
   }
-  
   /* Timeline element description */
   .vertical-timeline-element-subtitle {
     color: #ccc; /* Adjust description color */
     font-size: 1em; /* Adjust description font size */
   }
-  
   /* Timeline icon */
   .vertical-timeline-element-icon {
     background-color: #be50f4; /* Adjust icon background color */
   }
-  
   /* Timeline arrow */
   .vertical-timeline::before {
     background-color: #be50f4; /* Adjust arrow color */
   }
-  
   /* Timeline arrow inner */
   .vertical-timeline::after {
     background-color: #be50f4; /* Adjust inner arrow color */
