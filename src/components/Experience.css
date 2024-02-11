@@ -2,12 +2,13 @@
 /* Timeline container */
 .vertical-timeline {
     font-family: Arial, sans-serif; /* Customize font if needed */
+    margin-top: 5vw;
   }
   /* Timeline element */
   .vertical-timeline-element {
     border-left: 2px solid #be50f4; /* Adjust border color */
     border-radius: 4px; /* Adjust border radius */
-    margin: 20px 0; /* Adjust margin as needed */
+   
     color: #ccc;
   }
   /* Timeline element date */
