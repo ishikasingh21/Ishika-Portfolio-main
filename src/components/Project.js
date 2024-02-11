@@ -25,13 +25,13 @@ const projects = [
     link: 'https://github.com/your-username/project1',
   },
   {
-    title: 'Project 1',
-    description: 'Description of Project 1.',
-    link: 'https://github.com/your-username/project1',
+    title: 'Bank Transaction Analysis',
+    description: 'blah blah blah',
+    link: 'https://github.com/ishikasingh21/datacleaning-project-1',
   },
   {
     title: 'Plant Disease Detection',
-    description: 'In my Machine Learning project, I focused on image processing and CNNs. I used CNNs to analyze images, enhancing my skills in preprocessing, optimization, and evaluation.',
+    description: 'blah blah blah',
     link: 'https://github.com/ishikasingh21/Plant-Disease-detection',
   },
   // Add more projects as needed
