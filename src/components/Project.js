@@ -15,9 +15,9 @@ const projects = [
     link: 'https://github.com/your-username/project2',
   },
   {
-    title: 'Project 1',
-    description: 'Description of Project 1.',
-    link: 'https://github.com/your-username/project1',
+    title: 'Sales Predictor',
+    description: 'blah blah blah',
+    link: 'https://github.com/ishikasingh21/Sales-predictor',
   },
   {
     title: 'Responsive Clone Website',
