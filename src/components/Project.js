@@ -20,8 +20,8 @@ const projects = [
     link: 'https://github.com/your-username/project1',
   },
   {
-    title: 'Project 1',
-    description: 'Description of Project 1.',
+    title: 'Responsive Clone Website',
+    description: 'blah blah blah',
     link: 'https://github.com/your-username/project1',
   },
   {
