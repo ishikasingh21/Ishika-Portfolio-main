@@ -4,10 +4,13 @@ import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeli
 import 'react-vertical-timeline-component/style.min.css';
 import experiences from './experiences';
 import './Experience.css';
+import Particle from './Particle';
+
 
 const Experience = () => {
   return (
     <VerticalTimeline>
+      <Particle />
     {experiences.map((experience, index) => (
       <VerticalTimelineElement
         key={index}

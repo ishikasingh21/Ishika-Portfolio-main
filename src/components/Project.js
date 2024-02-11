@@ -1,6 +1,7 @@
 // src/components/Projects.js
 import React from 'react';
 import './Project.css';
+import Particle from "./Particle";
 
 const projects = [
   {
@@ -39,6 +40,7 @@ const projects = [
 const Projects = () => {
   return (
     <div className="projects-container">
+      <Particle />
       <h2>Projects</h2>
       <div className="project-list">
         {projects.map((project, index) => (
