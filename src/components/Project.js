@@ -5,11 +5,6 @@ import Particle from "./Particle";
 
 const projects = [
   {
-    title: 'Project 1',
-    description: 'Description of Project 1.',
-    link: 'https://github.com/your-username/project1',
-  },
-  {
     title: 'Project 2',
     description: 'Description of Project 2.',
     link: 'https://github.com/your-username/project2',
@@ -23,6 +18,11 @@ const projects = [
     title: 'Responsive Clone Website',
     description: 'blah blah blah',
     link: 'https://github.com/your-username/project1',
+  },
+  {
+    title: 'Currency Convertor',
+    description: 'blah blah blah',
+    link: 'https://github.com/ishikasingh21/Currency-Converter',
   },
   {
     title: 'Bank Transaction Analysis',
