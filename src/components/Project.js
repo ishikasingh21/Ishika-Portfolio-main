@@ -34,7 +34,6 @@ const projects = [
     description: 'blah blah blah',
     link: 'https://github.com/ishikasingh21/Plant-Disease-detection',
   },
-
 ];
 
 const Projects = () => {
