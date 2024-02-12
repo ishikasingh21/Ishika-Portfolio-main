@@ -1,6 +1,8 @@
 // src/components/Contact.js
 import React, { useState } from 'react';
 import './Contact.css';
+import Particle from './Particle';
+
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -23,6 +25,7 @@ const Contact = () => {
 
   return (
     <div className="contact-form-container">
+      <Particle />
       <h2>Contact Me</h2>
       <h3>Feel Free to Share Yous Thoughts</h3>
       <form onSubmit={handleSubmit} className="contact-form">
