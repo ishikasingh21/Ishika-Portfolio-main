@@ -7,7 +7,7 @@ const projects = [
   {
     title: 'VersaBot',
     description: 'blah blah blah',
-    link: 'action needed',
+    link: 'www.google.com',
   },
   {
     title: 'Sales Predictor',
@@ -40,7 +40,6 @@ const projects = [
 const Projects = () => {
   return (
     <div className="projects-container">
-      <Particle />
       <h2>Projects</h2>
       <div className="project-list">
         {projects.map((project, index) => (
