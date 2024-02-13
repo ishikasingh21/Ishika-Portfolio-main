@@ -20,13 +20,13 @@ const projects = [
     link: 'https://github.com/ishikasingh21/Sales-predictor',
   },
   {
-    title: 'Responsive Clone Website',
-    description: 'blah blah blah',
+    title: 'Clone Website',
+    description: 'A responsive clone website that behaves like a real responsive website.',
     link: 'action needed',
   },
   {
     title: 'Currency Convertor',
-    description: 'blah blah blah',
+    description: 'A currency Converter website using HTML, CSS and JavaScript.',
     link: 'https://github.com/ishikasingh21/Currency-Converter',
   },
   {
