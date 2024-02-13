@@ -11,7 +11,7 @@ const projects = [
   },
   {
     title: 'VersaBot',
-    description: 'Mitigating Confidential Document Theft during Human Handovers in Companies.',
+    description: 'To prevent confidential document theft, I and my team made a device with servo motor and RFID technology for secure handovers. Employee training reinforces confidentiality, fostering trust and security within the organization.',
     link: 'www.google.com',
   },
   {
