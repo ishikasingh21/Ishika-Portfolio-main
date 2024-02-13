@@ -6,12 +6,12 @@ import './Project.css';
 const projects = [
   {
     title: 'Go Food Go',
-    description: 'blah blah blah',
+    description: 'It is a food delivery app named "Go Food Go". I am currently immersed in building this end to endproject based on MERN Stack Development.',
     link: 'https://github.com/ishikasingh21/mernapp',
   },
   {
     title: 'VersaBot',
-    description: 'blah blah blah',
+    description: '',
     link: 'www.google.com',
   },
   {
