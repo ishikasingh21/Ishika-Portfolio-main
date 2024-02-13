@@ -5,6 +5,11 @@ import './Project.css';
 
 const projects = [
   {
+    title: 'Go Food Go',
+    description: 'blah blah blah',
+    link: 'https://github.com/ishikasingh21/mernapp',
+  },
+  {
     title: 'VersaBot',
     description: 'blah blah blah',
     link: 'www.google.com',
