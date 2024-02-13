@@ -11,7 +11,7 @@ const projects = [
   },
   {
     title: 'VersaBot',
-    description: '',
+    description: 'Mitigating Confidential Document Theft during Human Handovers in Companies.',
     link: 'www.google.com',
   },
   {
