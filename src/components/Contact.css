@@ -1,61 +1,59 @@
 /* src/components/ContactForm.css */
 .contact-form-container {
-    max-width: 600px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  .contact-form-container h2 {
-    text-align: center;
-  }
-  .contact-form-container h3 {
-    text-align: center;
-  }
-  
-  .contact-form {
-    margin-top: 20px;
-    border: #be50f4;
-    border-color: #be50f4;
-  }
-  
-  .form-group {
-    margin-bottom: 20px;
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 5px;
-  }
-  
-  input[type="text"],
-  input[type="email"],
-  textarea {
-    width: 100%;
-    padding: 10px;
-    border:  solid black;
-    border-radius: 5px;
-    box-sizing: border-box;
-  }
-  
-  textarea {
-    resize: none;
-    border: solid black;
-  }
-  
-  button[type="submit"] {
-    background-color: #be50f4;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-  
-  button[type="submit"]:hover {
-    background-color: #0056b3;
-  }
-  
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form-container h2 {
+  text-align: center;
+}
+.contact-form-container h3 {
+  text-align: center;
+}
+
+.contact-form {
+  margin-top: 20px;
+
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border:  solid black;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: none;
+  border: solid black;
+}
+
+button[type="submit"] {
+  background-color: #be50f4;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
