@@ -54,7 +54,7 @@ const Contact = () => {
           <textarea 
             id="message" 
             name="message" 
-            rows="5" 
+            rows="3" 
             value={formData.message} 
             onChange={handleChange} 
             required 
