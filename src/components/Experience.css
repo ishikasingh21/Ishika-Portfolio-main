@@ -6,10 +6,10 @@
   }
   /* Timeline element */
   .vertical-timeline-element {
-    border-left: 2px solid #be50f4; /* Adjust border color */
+   /* Adjust border color */
     border-radius: 4px; /* Adjust border radius */
-   
     color: #ccc;
+    
   }
   /* Timeline element date */
   .vertical-timeline-element-date {
@@ -41,6 +41,6 @@
   }
   /* Timeline arrow inner */
   .vertical-timeline::after {
-    background-color: #be50f4; /* Adjust inner arrow color */
+    background-color: purple; /* Adjust inner arrow color */
   }
   
