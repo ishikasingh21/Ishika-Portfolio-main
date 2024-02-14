@@ -28,7 +28,7 @@
 
 .form-group {
   margin-bottom: 20px;
-  color: #c8b0ee;
+  color: #9673d0;
 }
 
 label {
@@ -60,7 +60,7 @@ button {
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #631981;
 }
 
 .social-links ul {
