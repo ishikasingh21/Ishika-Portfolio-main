@@ -41,6 +41,6 @@
   }
   /* Timeline arrow inner */
   .vertical-timeline::after {
-    background-color: purple; /* Adjust inner arrow color */
+    background-color: #be50f4; /* Adjust inner arrow color */
   }
   
