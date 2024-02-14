@@ -25,10 +25,10 @@ const Contact = () => {
   return (
     <div className="contact-form-container">
       <h2  strong className='purple'>Contact Me</h2>
-      <h3 strong className='purple'>Feel Free to Share Your Thoughts</h3>
+      <h3 strong className='purple'>Feel Free to Share Your Thoughts !</h3>
       <form onSubmit={handleSubmit} className="contact-form">
         <div className="form-group">
-          <label htmlFor="name">Your Name</label>
+          <label strong className='purple' htmlFor="name">Your Name</label>
           <input 
             type="text" 
             id="name" 
@@ -39,7 +39,7 @@ const Contact = () => {
           />
         </div>
         <div className="form-group">
-          <label htmlFor="email">Your Email</label>
+          <label strong className='purple' htmlFor="email">Your Email</label>
           <input 
             type="email" 
             id="email" 
@@ -50,7 +50,7 @@ const Contact = () => {
           />
         </div>
         <div className="form-group">
-          <label htmlFor="message">Message</label>
+          <label strong className='purple' htmlFor="message">Message</label>
           <textarea 
             id="message" 
             name="message" 
