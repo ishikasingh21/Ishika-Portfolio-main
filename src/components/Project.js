@@ -6,17 +6,17 @@ import './Project.css';
 const projects = [
   {
     title: 'Go Food Go',
-    description: 'It is a food delivery app named "Go Food Go". I am currently immersed in building this end to endproject based on MERN Stack Development.',
+    description: 'It is a food delivery app named "Go Food Go". I am currently immersed in building this end to end project.',
     link: 'https://github.com/ishikasingh21/mernapp',
   },
   {
     title: 'VersaBot',
-    description: 'To prevent confidential document theft, I and my team made a device with servo motor and RFID technology for secure handovers. Employee training reinforces confidentiality, fostering trust and security within the organization.',
+    description: 'To prevent confidential document theft, a device combines servo motor and RFID tech for safe handovers.',
     link: 'www.google.com',
   },
   {
     title: 'Sales Predictor',
-    description: 'blah blah blah',
+    description: 'A sales model which predicts the sales forcast upon user or company data input.',
     link: 'https://github.com/ishikasingh21/Sales-predictor',
   },
   {
@@ -26,17 +26,17 @@ const projects = [
   },
   {
     title: 'Currency Convertor',
-    description: 'A currency Converter website using HTML, CSS and JavaScript.',
+    description: 'A Currency Converter website which convert currency of two different countries.',
     link: 'https://github.com/ishikasingh21/Currency-Converter',
   },
   {
     title: 'Bank Transaction Analysis',
-    description: 'blah blah blah',
+    description: 'A Python Model that used for manipulating and cleaning the data.',
     link: 'https://github.com/ishikasingh21/datacleaning-project-1',
   },
   {
     title: 'Plant Disease Detection',
-    description: 'blah blah blah',
+    description: 'A machine learning model that classifies the potato leaf as healthy or affected by either late or early blight.',
     link: 'https://github.com/ishikasingh21/Plant-Disease-detection',
   },
 ];
