@@ -11,9 +11,14 @@
   .contact-form-container h2 {
     text-align: center;
   }
+  .contact-form-container h3 {
+    text-align: center;
+  }
   
   .contact-form {
     margin-top: 20px;
+    border: #be50f4;
+    border-color: #be50f4;
   }
   
   .form-group {
