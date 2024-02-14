@@ -1,68 +1,69 @@
-
-// src/components/Contact.js
-import React, { useState } from 'react';
+import React from 'react';
 import './Contact.css';
-
+import {
+  AiFillGithub,
+  AiFillInstagram,
+} from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
 
 const Contact = () => {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: ''
-  });
-
-  const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Handle form submission here (e.g., sending data to backend)
-    console.log(formData);
-    // Reset form fields
-    setFormData({ name: '', email: '', message: '' });
-  };
-
   return (
-    <div className="contact-form-container">
-      <h2  strong className='purple'>Contact Me</h2>
-      <h3 strong className='purple'>Feel Free to Share Your Thoughts !</h3>
-      <form onSubmit={handleSubmit} className="contact-form">
-        <div className="form-group">
-          <label strong className='purple' htmlFor="name">Your Name</label>
-          <input 
-            type="text" 
-            id="name" 
-            name="name" 
-            value={formData.name} 
-            onChange={handleChange} 
-            required 
-          />
+    <div className="contact-container">
+      <div className="contact-card">
+        <h2 strong className='purple'>CONTACT ME</h2>
+        <form className="contact-form">
+          <div className="form-group">
+            <label htmlFor="name">Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div className="form-group">
+            <label htmlFor="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div className="form-group">
+            <label htmlFor="message">Message</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+          </div>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+      <div className="social-card">
+        <h2 strong className='purple'>FIND ME ON</h2>
+        <div className="social-links">
+          <ul className="home-about-social-links">
+            <li className="social-icons">
+              <a
+                href="https://github.com/ishikasingh21"
+                target="_blank"
+                rel="noreferrer"
+                className="icon-colour  home-social-icons"
+              >
+                <AiFillGithub />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://www.linkedin.com/in/ishika-singh-a43b78232/"
+                target="_blank"
+                rel="noreferrer"
+                className="icon-colour  home-social-icons"
+              >
+                <FaLinkedinIn />
+              </a>
+            </li>
+            <li className="social-icons">
+              <a
+                href="https://www.instagram.com/ishh.ikaa/?next=%2F"
+                target="_blank"
+                rel="noreferrer"
+                className="icon-colour home-social-icons"
+              >
+                <AiFillInstagram />
+              </a>
+            </li>
+          </ul>
         </div>
-        <div className="form-group">
-          <label strong className='purple' htmlFor="email">Your Email</label>
-          <input 
-            type="email" 
-            id="email" 
-            name="email" 
-            value={formData.email} 
-            onChange={handleChange} 
-            required 
-          />
-        </div>
-        <div className="form-group">
-          <label strong className='purple' htmlFor="message">Message</label>
-          <textarea 
-            id="message" 
-            name="message" 
-            rows="3" 
-            value={formData.message} 
-            onChange={handleChange} 
-            required 
-          ></textarea>
-        </div>
-        <button type="submit">Send Message</button>
-      </form>
+      </div>
     </div>
   );
 };
