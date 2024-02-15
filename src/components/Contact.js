@@ -62,6 +62,15 @@ const Contact = () => {
               </a>
             </li>
           </ul>
+          <p>OR
+
+
+
+
+            
+          </p>
+          <p>ishika003.singh@gmail.com</p>
+          <p>+91 9997749057</p>
         </div>
       </div>
     </div>
