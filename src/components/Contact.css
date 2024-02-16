@@ -81,3 +81,7 @@ button:hover {
 .social-links ul li a:hover {
   text-decoration: underline;
 }
+
+p{
+  color:#fff
+}
