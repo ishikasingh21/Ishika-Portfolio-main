@@ -21,7 +21,7 @@ const experiences = [
     {
       title: <span className="purple"><b>Internship Trainee</b></span>,
       company: <span className="purple"><b>Dakshinanchal Vidyut Vitran Nigam Limited</b></span>,
-      date: <b>June 2022- June 2022</b>,
+      date: <b>June 2022 - June 2022</b>,
       description: 'Interning at DVVNL in Agra, I immersed myself in data analysis and field trips, gaining insight into the intricacies of power distribution.',
     },
   ];
