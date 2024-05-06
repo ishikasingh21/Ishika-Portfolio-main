@@ -1,5 +1,11 @@
 // experiences.js
 const experiences = [
+  {
+    title: <span className="purple"><b>Software Engineering Trainee</b></span>,
+    company: <span className="purple"><b>Cadence Design Systems</b></span>,
+    date: <b>April 2024 - August 2024</b>,
+    description: 'As a Front-End Developer intern at Edunet Foundation, I designed intuitive interfaces for educational platforms, integrating innovative features to enhance user experience. I sharpened my coding skills and gained valuable insights into the intersection of technology and education.',
+  },
     {
       title: <span className="purple"><b>Front End Web Developer Intern</b></span>,
       company: <span className="purple"><b>Edunet Foundation</b></span>,
