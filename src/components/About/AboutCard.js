@@ -9,7 +9,7 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Ishika Singh</span>,
-            <br /> I am a Third Year student pursuing degree in Electrical Engineering with a specialization in Computer Science at Dayalbagh Educational Institute.
+            <br /> I am a Final Year student pursuing degree in Electrical Engineering with a specialization in Computer Science at Dayalbagh Educational Institute.
             <br />
             Additionally, I am enthusiastic about Web Development.
             <br />
