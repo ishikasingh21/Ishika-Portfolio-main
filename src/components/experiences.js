@@ -4,7 +4,7 @@ const experiences = [
     title: <span className="purple"><b>Software Engineering Trainee</b></span>,
     company: <span className="purple"><b>Cadence Design Systems</b></span>,
     date: <b>April 2024 - August 2024</b>,
-    description: 'need a look !',
+    description: 'As a Research and Development Trainee at Cadence Design Systems, I worked on digital circuit design and timing analysis using the Tempus tool. I have gained valuable experience, particularly in EDA tools and timing closure, and have learned a great deal about problem-solving, debugging and script writing in multiple languages. Collaborating with a diverse team has also enhanced my technical communication skills.',
   },
     {
       title: <span className="purple"><b>Front End Web Developer Intern</b></span>,
