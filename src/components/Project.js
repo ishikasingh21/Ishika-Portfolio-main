@@ -15,11 +15,6 @@ const projects = [
     link: 'https://github.com/ishikasingh21/Sales-predictor',
   },
   {
-    title: 'Clone Website',
-    description: 'A responsive clone website that behaves like a real responsive website.',
-    link: 'action needed',
-  },
-  {
     title: 'Currency Convertor',
     description: 'A Currency Converter website which convert currency of two different countries.',
     link: 'https://github.com/ishikasingh21/Currency-Converter',
