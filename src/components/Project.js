@@ -5,11 +5,6 @@ import './Project.css';
 
 const projects = [
   {
-    title: 'Go Food Go',
-    description: 'It is a food delivery app named "Go Food Go". I am currently immersed in building this end to end project.',
-    link: 'https://github.com/ishikasingh21/mernapp',
-  },
-  {
     title: 'VersaBot',
     description: 'To prevent confidential document theft, a device combines servo motor and RFID tech for safe handovers.',
     link: 'www.google.com',
