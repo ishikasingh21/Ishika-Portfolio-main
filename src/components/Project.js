@@ -15,11 +15,6 @@ const projects = [
     link: 'https://github.com/ishikasingh21/Sales-predictor',
   },
   {
-    title: 'Currency Convertor',
-    description: 'A Currency Converter website which convert currency of two different countries.',
-    link: 'https://github.com/ishikasingh21/Currency-Converter',
-  },
-  {
     title: 'Bank Transaction Analysis',
     description: 'A Python Model that used for manipulating and cleaning the data.',
     link: 'https://github.com/ishikasingh21/datacleaning-project-1',
