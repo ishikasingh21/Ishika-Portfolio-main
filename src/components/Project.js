@@ -1,7 +1,6 @@
 // src/components/Projects.js
-import React from 'react';
+import React, { useEffect } from 'react';
 import './Project.css';
-
 
 const projects = [
   {
@@ -11,12 +10,12 @@ const projects = [
   },
   {
     title: 'Sales Predictor',
-    description: 'A sales model which predicts the sales forcast upon user or company data input.',
+    description: 'A sales model which predicts the sales forecast upon user or company data input.',
     link: 'https://github.com/ishikasingh21/Sales-predictor',
   },
   {
     title: 'Bank Transaction Analysis',
-    description: 'A Python Model that used for manipulating and cleaning the data.',
+    description: 'A Python model used for manipulating and cleaning the data.',
     link: 'https://github.com/ishikasingh21/datacleaning-project-1',
   },
   {
@@ -27,6 +26,28 @@ const projects = [
 ];
 
 const Projects = () => {
+  useEffect(() => {
+    const handleScroll = () => {
+      const elements = document.querySelectorAll('.project-card');
+      const windowHeight = window.innerHeight;
+
+      elements.forEach((element) => {
+        const elementTop = element.getBoundingClientRect().top;
+        if (elementTop < windowHeight - 50) {
+          element.classList.add('visible'); // Add visible class when in view
+        }
+      });
+    };
+
+    // Check visibility on scroll
+    window.addEventListener('scroll', handleScroll);
+    
+    // Run on initial load
+    handleScroll();
+
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
     <div className="projects-container">
       <h2>Projects</h2>
@@ -35,9 +56,11 @@ const Projects = () => {
           <div key={index} className="project-card">
             <h3>{project.title}</h3>
             <p>{project.description}</p>
-            <a href={project.link} 
-            target="_blank" 
-            rel="noopener noreferrer">
+            <a
+              href={project.link}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               View Project
             </a>
           </div>
