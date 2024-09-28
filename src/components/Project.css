@@ -1,3 +1,4 @@
+/* General project card styling */
 .project-card {
   background-color: #1b1a2e;
   border-radius: 12px;
@@ -6,39 +7,54 @@
   padding: 20px;
   margin: 20px;
   width: 300px;
-  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, opacity 1s ease-out, transform 1s ease-out;
   height: 300px;
+  opacity: 0; /* Initial opacity for fade-in effect */
+  transform: translateX(-100%); /* Initial transform for slide-in effect */
 }
 
-.projects-container{
+.projects-container {
   margin-top: 7vw;
 }
 
-.projects-container h2{
+.projects-container h2 {
   color: antiquewhite;
 }
 
+/* Project list styling */
 .project-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* Adjust as needed */
+  justify-content: center;
   margin-top: 7vw;
 }
 
+/* Project card hover effect */
 .project-card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-5px) scale(1.05); /* Updated to include scaling on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+/* Animation for when the card is visible */
+.project-card.visible {
+  opacity: 1; /* Fade-in when visible */
+  transform: translateX(0); /* Slide in from the left when visible */
+}
+
+/* Styling for project card title */
 .project-card h3 {
   margin-bottom: 10px;
   font-weight: bold;
 }
 
+/* Styling for project description */
 .project-card p {
   margin-bottom: 20px;
   color: white;
 }
 
+/* Styling for project links */
 .project-card a {
   text-decoration: none;
   color: #007bff;
@@ -49,7 +65,7 @@
   color: #0056b3;
 }
 
+/* Focus styling for accessibility */
 .project-card:focus {
   outline: none;
 }
-
